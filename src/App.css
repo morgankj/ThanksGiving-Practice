@@ -1,1 +1,17 @@
-
+.bold {
+    font-weight: bold;
+}
+.headerBanner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px darkorange;
+}

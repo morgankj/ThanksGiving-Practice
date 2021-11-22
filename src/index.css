@@ -18,3 +18,21 @@ body {
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
 }
+
+html, body {
+  height: 100vh;
+}
+
+.wrapper {
+  min-height: 100vh;
+  margin-bottom: -40px;
+  background-color: lightyellow;
+}
+
+.footerBar, .push {
+  height: 40px;
+}
+
+* {
+  text-align: center;
+}
