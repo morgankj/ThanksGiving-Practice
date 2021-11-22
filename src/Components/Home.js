@@ -19,7 +19,7 @@ export default function Home() {
             <div className='card'>
                 <div id='apiImg' className='img'></div>
                 <h3>API Link</h3>
-                <p> <a href='https://api.ebird.org/v2/data/obs/TX/recent'>Here</a> is a link to the API that the BIRD nav uses. I am pulling data from this API.</p>
+                <p> <a href='https://api.ebird.org/v2/data/obs/TX/recent' className='blueLink'>Here</a> is a link to the API that the BIRD nav uses. I am pulling data from this API.</p>
             </div>
             <div className='card'>
                 <div id='birdFriends' className='img'></div>
@@ -45,10 +45,6 @@ const StyledHome = styled.div`
         background-image: url(${headerImage});
     }
     .tagline {
-        margin: 4% 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         & p {
             margin: 1%;
         }
@@ -61,22 +57,6 @@ const StyledHome = styled.div`
         justify-content: space-between;
     }
     .card {
-        width: 27%;
-        background: white;
-        padding: 2%;
-        border: solid red 1px;
-        border-radius: 5px;
-        & a {
-            color: blue;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-        & h3 {
-            font-weight: bold;
-            font-size: 2rem;
-            margin: 1%;
-        }
         & .img {
             height: 30vh;
             background-position: center;

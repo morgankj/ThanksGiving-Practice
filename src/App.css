@@ -1,3 +1,6 @@
+* {
+  text-align: center;
+}
 .bold {
     font-weight: bold;
 }
@@ -20,4 +23,28 @@
 }
 .headerBanner h1, nav a, nav p, .footerBar p {
     color: white;
+}
+.blueLink {
+    color: blue;
+}
+.blueLink:hover {
+    text-decoration: underline;
+}
+.tagline {
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 27%;
+        background: white;
+        padding: 2%;
+        border: solid red 1px;
+        border-radius: 5px;
+}
+.card h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2%;
 }
