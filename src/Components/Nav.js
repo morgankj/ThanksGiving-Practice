@@ -25,7 +25,6 @@ const StyledNav = styled.div`
   nav {
     display: flex;
     background-color: orange;
-    color: white;
     align-items: center;
     justify-content: space-between;
     padding: .5rem;
@@ -39,7 +38,7 @@ const StyledNav = styled.div`
     align-items: center;
   }
   #navLogoImg {
-    width: 6%;
+    width: 3rem;
   }
   #navLogo p, #navLinks a {
     text-shadow: 2px 2px red;
@@ -53,10 +52,6 @@ const StyledNav = styled.div`
     & a {
       margin: .8rem;
     }
-  }
-  a {
-    text-decoration: none;
-    color: white;
   }
   img:hover {
   animation: shake 0.3s;

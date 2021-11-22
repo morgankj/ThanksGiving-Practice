@@ -1,6 +1,9 @@
 .bold {
     font-weight: bold;
 }
+.pageContainer {
+    margin: 2%;
+}
 .headerBanner {
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,6 +15,9 @@
     align-items: center;
     font-size: 5rem;
     font-weight: bold;
-    color: white;
     text-shadow: 4px 4px darkorange;
+    border-radius: 5px;
+}
+.headerBanner h1, nav a, nav p, .footerBar p {
+    color: white;
 }
