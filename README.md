@@ -1,1 +1,3 @@
 Just my personal playground to continue practice over thanksgiving break!
+
+I made a small site using components and an API .get to pull data about bird sightings. I connect to Cornell Labs (through Cornell University) about 20 recent bird sightings in the USA, and display this data for each bird in blocks. I also include a quick-google-search link in each block, so that users can easily click to see more info about each bird (on google, of course).
