@@ -14,12 +14,12 @@ export default function App() {
     <div className="App">
       <div className="wrapper"> {/* <<<   Pushes footer down*/}
         <Nav/>
+        
         <Routes>
           <Route path='/about' element={<About />}></Route>
           <Route path='/birds' element={<Birds />}></Route>
           <Route path='/' element={<Home />}></Route>
         </Routes>
-
 
         <div className="push"></div> {/* <<<   Pushes footer down*/}
       </div>

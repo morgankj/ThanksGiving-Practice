@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import logo from '../Images/favicon.ico';
 import styled from 'styled-components';
 
+import footprints from '../Images/footprints.png';
 
 export default function Navbar() {
   return (
@@ -11,6 +12,7 @@ export default function Navbar() {
             <img src={logo} alt='cute turkey' id='navLogoImg'/>
             <p>TBirds</p>
           </a>
+          <img src={footprints} alt='bird footprints' id='navFootprints'/>
           <div id='navLinks'>
             <Link to='/'>HOME</Link>
             <Link to='/about'>ABOUT</Link>
@@ -53,10 +55,13 @@ const StyledNav = styled.div`
       margin: .8rem;
     }
   }
-  img:hover {
+  #navLogoImg:hover {
   animation: shake 0.3s;
   animation-iteration-count: infinite;
 }
+  #navFootprints{
+    width: 5rem;
+  }
 
 @keyframes shake {
    0% { transform: translate(1px, 1px) rotate(5deg); }

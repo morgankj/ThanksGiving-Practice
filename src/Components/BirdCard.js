@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import footprints from '../Images/footprints.png';
+
 export default function BirdCard({ bird }) {
     return(
         <StyledBirdCards key={bird.comName} className='card'>
@@ -10,8 +12,9 @@ export default function BirdCard({ bird }) {
                 <p><b class='bold'>Number observed:</b> {bird.howMany}</p>
                 <p><b class='bold'>Location:</b> {bird.locName}</p>
                 <p><b class='bold'>Date:</b> {bird.obsDt}</p>
-                <p><a href={`https://www.google.com/search?q=${bird.comName}`} target='_blank' rel='noreferrer' className='blueLink'>Google Search</a></p>
+                <p><a href={`https://www.google.com/search?q=${bird.comName}`} target='_blank' rel='noreferrer' className='blueLink'>Google Results</a></p>
             </div>
+            <img src={footprints} alt='bird footprints' />
         </StyledBirdCards>
     );
 }
@@ -27,5 +30,8 @@ const StyledBirdCards = styled.div`
     }
     & p {
     text-align: left;
+    }
+    & img {
+        width: 20%;
     }
 `

@@ -19,7 +19,7 @@ export default function Home() {
             <div className='card'>
                 <div id='apiImg' className='img'></div>
                 <h3>API Link</h3>
-                <p> <a href='https://api.ebird.org/v2/data/obs/TX/recent' className='blueLink'>Here</a> is a link to the API that the BIRD nav uses. I am pulling data from this API.</p>
+                <p> <a href='https://api.ebird.org/v2/data/obs/US/recent?maxResults=20' target='_blank' rel='noreferrer' className='blueLink'>Here</a> is a link to the API that the BIRD nav uses. I am pulling data from this API.</p>
             </div>
             <div className='card'>
                 <div id='birdFriends' className='img'></div>
