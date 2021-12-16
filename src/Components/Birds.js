@@ -28,7 +28,7 @@ export default function Birds() {
             </div>
             <p className='tagline'>Below is a list of birds recently observed within the USA! This data is pulled directly from ©<a href='https://academy.allaboutbirds.org/' target='_blank' rel='noreferrer' className='blueLink'>The Cornell Lab</a> (with Cornell University), an organization dedicated to advancing the understanding and protection of the natural world.</p>
             <div className='birdContainer'>
-                { !birds ? birds.map(bird => (<BirdCard bird={bird} key={bird.speciesCode}/>)) : <div id='loading'>Catching birds...<p id="loadingWarning">This may take a moment.</p></div> }
+                { birds ? birds.map(bird => (<BirdCard bird={bird} key={bird.speciesCode}/>)) : <div id='loading'>Catching birds...<p id="loadingWarning">This may take a moment.</p></div> }
             </div>
         </StyledBirds>
     );
