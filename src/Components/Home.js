@@ -28,7 +28,7 @@ export default function Home() {
             </div>
             <div className='card'>
                 <div id='mustache' className='img'></div>
-                <h3>API Link</h3>
+                <h3>Mustache Bird</h3>
                 <p>Birds come in many shapes and sizes with unique and distinguishing features. This mustache man is an Inca Tern.</p>
             </div>
         </div>
