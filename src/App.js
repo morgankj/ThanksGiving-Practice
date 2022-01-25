@@ -1,6 +1,5 @@
 // Styles
 // import styled from 'styled-components';
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 // Components
 import Nav from './Components/Nav';
